@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "KyivType";
+    src: url("../src/font/KyivTypeSans-Regular.woff") format('woff');
+}
+  
+@font-face {
+    font-family: "KyivType";
+    src: url("../src/font/KyivTypeSans-Bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "KyivType";
+    src: url("../src/font/KyivTypeSans-Medium.woff") format('woff');
+    font-weight: medium;
+}
+
+body{
+    background-color: #f5d6ff;
+    font-family: "KyivType";
+    color: #390c49;
+    padding: 20px 60px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.main_task{
+    padding: 20px 0;
+}
+
+.main_task_img{
+    background: url(../src/img/task_img.jpg) no-repeat;
+    background-size: cover;
+    align-self: start;
+    width: 300px;
+    height: 300px;
+}

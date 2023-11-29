@@ -1,0 +1,77 @@
+@import url(../app.component.css);
+
+form {
+    background-color: #ffffff;
+    color: #390c49;
+    border: 3px solid #390c49;
+    border-radius: 20px;
+    width: 80%;
+    margin-right: 5%;
+    padding: 20px;
+    font-family: "KyivType";
+    font-size: 20px;
+    font-weight: bold;
+}
+fieldset{
+    width: 90%;
+}
+input {
+    border: none;
+    background: transparent;
+    width: 25%;
+    height: 45px;
+    outline: none;
+    border-bottom: 1px solid #390c49;
+    font-family: "KyivType";
+    color: #390c49;
+    font-size: 20px;
+}
+input:invalid {
+    border-bottom: 3px solid red;
+}
+.input_r{
+    width: 80%;
+}
+
+button {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #c935ff;
+    border: 2px solid #390c49;
+    border-radius: 12px;
+    padding: 0.5% 5%;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #9122b9;
+    transition: backgroung-color 0.15s ease-in-out;
+}
+
+button:active {
+    background-color: #390c49;
+}
+
+.flex_row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 150px;
+    height: 50px;
+    border: 2px solid #390c49;
+    background-color: #c935ff;
+    font-family: "KyivType";
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
